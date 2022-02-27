@@ -1,0 +1,123 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #3E3E3E;
+    overflow-x:hidden; 
+    overflow-y:hidden
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    color: aliceblue;
+    padding: 1%;
+}
+
+.title {
+    padding: 0px 10px;
+    margin: 15px 0px;
+    font-size: 20px;
+    color: aliceblue;
+    font-family:cursive;
+}
+
+.name {
+    font-size: calc(2em);
+    border-radius: 15px;
+}
+.name:hover{
+    background-color: rgba(66, 66, 66, 0.507);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    color: aliceblue;
+    padding: 1%;
+    bottom: 0;
+    padding: 1% 5%;
+}
+.desc{
+    width: 90%;
+}
+
+.categoriesButtons{
+    border:0;
+    background-color: transparent;
+    color: aliceblue;
+    font-family:cursive;
+    margin: 0 10px;
+    border-radius: 15px;
+    transition: background-color .3s;
+    font-size: 20px;
+}
+.categoriesButtons:hover{
+    background-color: #ffffffa1;
+    color: #000000
+}
+
+.cards{
+    margin: 10px 20px 5px 0px;
+}
+
+.img{
+    height: 150px;
+    border-radius: 15px;
+    transition: background-color .3s;
+
+}
+.img:hover{
+    filter: opacity(.6);
+
+}
+
+.back-cards{
+    background-color: #d4d4d44f;
+    padding: 0px 15px;
+}
+.config{
+    color: aliceblue;
+}
+
+.login{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+}
+.inputs{
+    align-items: center;
+    background-color: rgb(112, 112, 112);
+    width: 80%;
+    height: 50%;
+    border-radius: 15px;    
+    
+}
+.input{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    border-radius: 2px; 
+    margin: 30px 0px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.Swal{
+    font-family: monospace;
+}
+.Swal.img{
+    height: 50px;
+}
+
+.ico{
+    width: 25px;
+    height: auto;
+    margin: 6px;
+}
